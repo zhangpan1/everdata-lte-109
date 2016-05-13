@@ -1,34 +1,0 @@
-10
-
-dir
-83704
-http://192.168.200.125/svn/product/EverData/trunk/everdata-lte-209/src
-http://192.168.200.125/svn/product
-
-
-
-2015-12-14T08:09:14.044670Z
-83667
-jiangkui
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-6854044b-fb13-453c-a592-8ecfda0c42c1
-
-main
-dir
-
-test
-dir
-
