@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi
+END
+KafkaConsumerXdrUserKPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrUserKPI.java
+END
+KafkaConsumerXdrSignalling_S1C.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/78168/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_S1C.java
+END
+KafkaConsumerXdr.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdr.java
+END
+KafkaConsumerXdrSignalling_all.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_all.java
+END
+KafkaConsumerXdrSignalling_S1U_City.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_S1U_City.java
+END
+KafkaConsumerXdrSignalling_Term_S1C.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_Term_S1C.java
+END
+KafkaConsumerXdrSignalling.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling.java
+END
+KafkaConsumerXdrSignalling_Term_City.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_Term_City.java
+END
+KafkaConsumerXdrSignalling_TAG_City.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_TAG_City.java
+END
+KafkaConsumerXdrSignallingKPI_TEST_XDRID_SHOW.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/product/!svn/ver/58491/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignallingKPI_TEST_XDRID_SHOW.java
+END
+KafkaConsumerXdrSignalling_Term.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_Term.java
+END
+KafkaConsumerHandlerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerHandlerAdapter.java
+END
+KafkaConsumerXdrSignalling_S1U.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_S1U.java
+END
+StaticBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/StaticBean.java
+END
+HandFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/HandFlow.java
+END
+KafkaConsumerXdrSignallingKPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignallingKPI.java
+END
+KafkaConsumerXdrSignalling_S1C_City.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_S1C_City.java
+END
+KafkaConsumerXdrSignalling_Term_S1U.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/80925/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_Term_S1U.java
+END
+KafkaConsumerXdrSignalling_Term_City_DB.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/KafkaConsumerXdrSignalling_Term_City_DB.java
+END

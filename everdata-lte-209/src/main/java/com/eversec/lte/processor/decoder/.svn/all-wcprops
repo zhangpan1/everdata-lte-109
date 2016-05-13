@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/decoder
+END
+XdrCustomBytesDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/decoder/XdrCustomBytesDecoder.java
+END
+XdrCompBytesDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/48857/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/decoder/XdrCompBytesDecoder.java
+END
+IDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/decoder/IDecoder.java
+END
+RawGbiupsBytesDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/56431/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/decoder/RawGbiupsBytesDecoder.java
+END
+XdrSingleBytesDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/decoder/XdrSingleBytesDecoder.java
+END
+XdrAppBytesDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/decoder/XdrAppBytesDecoder.java
+END
+RawBytesDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/decoder/RawBytesDecoder.java
+END

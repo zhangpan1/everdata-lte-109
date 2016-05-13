@@ -1,0 +1,49 @@
+10
+
+dir
+83704
+http://192.168.200.125/svn/product/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor
+http://192.168.200.125/svn/product
+
+
+
+2015-11-25T07:36:37.859937Z
+80515
+lirongzhi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6854044b-fb13-453c-a592-8ecfda0c42c1
+
+backfill
+dir
+
+backfill2
+dir
+
+compound
+dir
+
+data
+dir
+
+decoder
+dir
+
+statistics
+dir
+
+task
+dir
+

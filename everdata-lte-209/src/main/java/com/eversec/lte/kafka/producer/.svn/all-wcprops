@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/product/!svn/ver/57619/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka/producer
+END
+KafkaByteProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka/producer/KafkaByteProducer.java
+END
+KafkaStringProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka/producer/KafkaStringProducer.java
+END
+KafkaProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/57619/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka/producer/KafkaProducer.java
+END

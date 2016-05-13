@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/80395/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound
+END
+AppXdrCompound.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/AppXdrCompound.java
+END
+XdrIDGenerater.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/XdrIDGenerater.java
+END
+UemrXdrCompound.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/80395/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/UemrXdrCompound.java
+END
+SignalingXdrCompound1.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/48794/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/SignalingXdrCompound1.java
+END
+Compounder.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/Compounder.java
+END
+SignalingXdrCompound.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/SignalingXdrCompound.java
+END
+XdrCompoundSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/XdrCompoundSender.java
+END
+TestComp.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/TestComp.java
+END
+TestComp2.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/compound/TestComp2.java
+END

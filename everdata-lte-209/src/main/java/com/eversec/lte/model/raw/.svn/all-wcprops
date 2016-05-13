@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/raw
+END
+XdrRawPayData.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/raw/XdrRawPayData.java
+END
+XdrRawSigPayload.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/raw/XdrRawSigPayload.java
+END
+XdrRawScaPayload.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/raw/XdrRawScaPayload.java
+END
+XdrRawPayload.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/raw/XdrRawPayload.java
+END
+XdrRawPayDataGbiups.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/product/!svn/ver/56431/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/raw/XdrRawPayDataGbiups.java
+END

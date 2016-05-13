@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u
+END
+XdrSingleS1UAppHttp.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/50570/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppHttp.java
+END
+XdrSingleS1USignallingGn.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1USignallingGn.java
+END
+XdrSingleS1UAppIM.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/50570/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppIM.java
+END
+XdrSingleS1UAppMMS.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/61792/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppMMS.java
+END
+XdrSingleS1UAppFtp.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/50570/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppFtp.java
+END
+XdrSingleS1UAppVOIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/59498/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppVOIP.java
+END
+XdrSingleS1UApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/50570/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UApp.java
+END
+XdrSingleS1UAppRTSP.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/50570/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppRTSP.java
+END
+XdrSingleS1UMobileCommon.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UMobileCommon.java
+END
+XdrSingleS1UAppP2P.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/50570/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppP2P.java
+END
+XdrSingleS1UBusinessCommon.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UBusinessCommon.java
+END
+XdrSingleS1UAppEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/50570/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppEmail.java
+END
+XdrSingleS1UCommon.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UCommon.java
+END
+XdrSingleS1UAppDNS.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/61792/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/s1u/XdrSingleS1UAppDNS.java
+END

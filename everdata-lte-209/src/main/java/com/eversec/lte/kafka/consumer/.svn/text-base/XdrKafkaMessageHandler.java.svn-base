@@ -1,0 +1,51 @@
+package com.eversec.lte.kafka.consumer;
+
+import static com.eversec.lte.processor.data.StaticData.XDR_RECEIVE_BYTES;
+import static com.eversec.lte.processor.data.StaticData.XDR_RECEIVE_PACKAGE;
+
+import org.apache.mina.core.buffer.IoBuffer;
+
+import com.eversec.lte.config.SdtpConfig;
+import com.eversec.lte.constant.SdtpConstants;
+import com.eversec.lte.processor.data.QueueData;
+import com.eversec.lte.processor.data.StaticData;
+import com.eversec.lte.sdtp.model.NotifyXDRDataReq;
+import com.eversec.lte.sdtp.model.SdtpHeader;
+import com.eversec.lte.utils.SdtpUtils;
+
+public class XdrKafkaMessageHandler implements KafkaConsumerHandler {
+
+	public void messageReceived(byte[] message) throws Exception {
+		if (SdtpConfig.IS_BACKFILL) {
+			QueueData.PROCESS_XDR_DATA_QUEUE.put(message);
+		} else {
+			NotifyXDRDataReq req = decodeXDRData(message);
+			if (SdtpConfig.IS_OUTPUT_ORIGINAL_XDR_2_SDTP) {
+				QueueData.ORIGINAL_XDR_SDTP_OUTPUT_QUEUE.put(req);
+			}
+			if (SdtpConfig.IS_OUTPUT_ORIGINAL_XDR_2_FILE) {
+				QueueData.ORIGINAL_XDR_FILE_OUTPUT_QUEUE.put(req);
+			}
+			if(SdtpConfig.IS_OUTPUT_ORIGINAL_XDR_2_EMPTY){
+				QueueData.ORIGINAL_XDR_EMPTY_OUTPUT_QUEUE.put(req);
+			}
+			if (SdtpConfig.IS_OUTPUT_EXAMINE_XDR_2_FILE) {
+				QueueData.EXAMINE_XDR_FILE_OUTPUT_QUEUE.put(req);
+			}
+			StaticData.SOURCE_COUNT.addAndGet(req.getHeader()
+					.getTotalContents());
+		}
+		XDR_RECEIVE_PACKAGE.incrementAndGet();
+		XDR_RECEIVE_BYTES.addAndGet(message.length);
+	}
+
+	private NotifyXDRDataReq decodeXDRData(byte[] bytes) {
+		IoBuffer in = IoBuffer.wrap(bytes);
+		SdtpHeader header = SdtpUtils.getHeader(in);
+		byte[] load = new byte[bytes.length - SdtpConstants.SDTP_HEADER_LENGTH];
+		in.get(load);
+		NotifyXDRDataReq req = new NotifyXDRDataReq(load);
+		req.setHeader(header);
+		return req;
+	}
+}

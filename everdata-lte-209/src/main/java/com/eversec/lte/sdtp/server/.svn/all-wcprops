@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/server
+END
+SdtpServerLteEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/server/SdtpServerLteEncoder.java
+END
+SdtpServerLteGbiupsDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/56431/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/server/SdtpServerLteGbiupsDecoder.java
+END
+SdtpServerApplicationLayerHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/product/!svn/ver/59498/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/server/SdtpServerApplicationLayerHandler.java
+END
+SdtpServerCompLayerHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/server/SdtpServerCompLayerHandler.java
+END
+SdtpServerLteDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/56431/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/server/SdtpServerLteDecoder.java
+END
+SdtpLteServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/server/SdtpLteServer.java
+END

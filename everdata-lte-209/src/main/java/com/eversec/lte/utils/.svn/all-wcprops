@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils
+END
+JeditClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/JeditClient.java
+END
+MinaClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/MinaClient.java
+END
+FormatUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/FormatUtils.java
+END
+HttpUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/HttpUtil.java
+END
+UUIDUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/UUIDUtils.java
+END
+SdtpUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/SdtpUtils.java
+END
+GeoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/GeoUtil.java
+END
+LteThreadFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/72919/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/LteThreadFactory.java
+END
+TBCDUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/utils/TBCDUtil.java
+END

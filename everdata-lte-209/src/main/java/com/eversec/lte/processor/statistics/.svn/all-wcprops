@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/80395/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/statistics
+END
+StaticUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/48794/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/statistics/StaticUtil.java
+END
+BackFillStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/80395/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/statistics/BackFillStat.java
+END
+RawStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/statistics/RawStat.java
+END
+HttpStaticServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/78998/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/statistics/HttpStaticServer.java
+END
+XdrDelayStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/80395/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/processor/statistics/XdrDelayStat.java
+END

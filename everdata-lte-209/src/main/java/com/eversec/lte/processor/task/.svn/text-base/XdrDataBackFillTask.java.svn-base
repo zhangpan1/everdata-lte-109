@@ -1,0 +1,239 @@
+//package com.eversec.lte.processor.task;
+//
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.CELL_MR;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.GNC;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.S10;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.S11;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.S1MME;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.S1U;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.S5S8;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.S6A;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.SGS;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.UE_MR;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.UU;
+//import static com.eversec.lte.constant.SdtpConstants.XDRInterface.X2;
+//
+//import java.util.ArrayList;
+//import java.util.Collection;
+//import java.util.List;
+//import java.util.concurrent.ArrayBlockingQueue;
+//import java.util.concurrent.TimeUnit;
+//
+//import com.eversec.lte.model.single.XdrSingleCommon;
+//import com.eversec.lte.model.single.XdrSingleSource;
+//import com.eversec.lte.model.single.XdrSingleSourceS10S11;
+//import com.eversec.lte.model.single.XdrSingleSourceS1MME;
+//import com.eversec.lte.model.single.XdrSingleSourceS1MME.Bearer;
+//import com.eversec.lte.model.single.XdrSingleSourceS1U;
+//import com.eversec.lte.model.single.XdrSingleSourceS6a;
+//import com.eversec.lte.model.single.XdrSingleSourceSGs;
+//import com.eversec.lte.model.single.XdrSingleSourceUEMR;
+//import com.eversec.lte.model.single.XdrSingleSourceUu;
+//import com.eversec.lte.model.single.XdrSingleSourceX2;
+//import com.eversec.lte.model.single.s1u.XdrSingleS1UMobileCommon;
+//import com.eversec.lte.output.FilledXdrFileOutput;
+//import com.eversec.lte.output.FilledXdrKafkaOutput;
+//import com.eversec.lte.output.FilledXdrSdtpOutput;
+//import com.eversec.lte.output.OriginalXdrFileOutput;
+//import com.eversec.lte.processor.backfill.AbstractCmBackFill;
+//import com.eversec.lte.processor.decoder.XdrSingleBytesDecoder;
+//import com.eversec.lte.sdtp.model.NotifyXDRDataReq;
+//import com.eversec.lte.vo.backfill.S11FillParam;
+//import com.eversec.lte.vo.backfill.S1UFillParam;
+//import com.eversec.lte.vo.backfill.S1mmeFillParam;
+//import com.eversec.lte.vo.backfill.S6aFillParam;
+//import com.eversec.lte.vo.backfill.SgsFillParam;
+//import com.eversec.lte.vo.backfill.UemrFillParam;
+//import com.eversec.lte.vo.backfill.UuFillParam;
+//import com.eversec.lte.vo.backfill.X2FillParam;
+//
+///**
+// * 
+// * @author bieremayi
+// * 
+// */
+//public class XdrDataBackFillTask extends AbstractBackFillTask<NotifyXDRDataReq> {
+//
+//	private AbstractCmBackFill backfill;
+//
+//	XdrSingleBytesDecoder xdrDecoder = new XdrSingleBytesDecoder();
+//
+//	public XdrDataBackFillTask(AbstractCmBackFill backfill,
+//			ArrayBlockingQueue<NotifyXDRDataReq> queue) {
+//		super();
+//		this.backfill = backfill;
+//		this.queue = queue;
+//	}
+//
+//	@Override
+//	public void run() {
+//		Collection<NotifyXDRDataReq> coll = new ArrayList<>();
+//		while (true) {
+//			int count = queue.drainTo(coll, drainMaxElements);
+//			if (count > 0) {
+//				for (NotifyXDRDataReq data : coll) {
+//					List<XdrSingleSource> xdrs = xdrDecoder.decode(data
+//							.getLoad());
+//					for (XdrSingleSource xdr : xdrs) {
+//						OriginalXdrFileOutput.output(xdr);
+//						doBackfill(xdr);
+//					}
+//				}
+//				coll.clear();
+//			} else {
+//				try {
+//					TimeUnit.MILLISECONDS.sleep(drainTaskSleepMills);
+//				} catch (InterruptedException e) {
+//					e.printStackTrace();
+//				}
+//			}
+//		}
+//	}
+//
+//	/**
+//	 * 回填操作
+//	 * 
+//	 * @param xdr
+//	 */
+//	private void doBackfill(XdrSingleSource xdr) {
+//		XdrSingleCommon common = xdr.getCommon();
+//		int Interface = xdr.getCommon().getInterface();
+//		switch (Interface) {
+//		case UU:
+//			fillUu(xdr, common);
+//			break;
+//		case X2:
+//			fillX2(xdr, common);
+//			break;
+//		case UE_MR:
+//			fillUemr(xdr, common);
+//			break;
+//		case CELL_MR:
+//			fillCellMr(xdr, common);
+//			break;
+//		case S1MME:
+//			fillS1mme(xdr, common);
+//			break;
+//		case S6A:
+//			fillS6a(xdr, common);
+//			break;
+//		case S11:
+//			fillS11(xdr, common);
+//			break;
+//		case S10:
+//			fillS10(xdr, common);
+//			break;
+//		case SGS:
+//			fillSgs(xdr, common);
+//			break;
+//		case S5S8:
+//			fillS5S8(xdr, common);
+//			break;
+//		case S1U:
+//			fillS1u(xdr, common);
+//			break;
+//		case GNC:
+//			fillGnc(xdr, common);
+//			break;
+//		default:
+//			break;
+//		}
+//
+//	}
+//
+//	private void fillGnc(XdrSingleSource xdr, XdrSingleCommon common) {
+//		// TODO
+//	}
+//
+//	private void fillS1u(XdrSingleSource xdr, XdrSingleCommon common) {
+//		XdrSingleSourceS1U s1u = (XdrSingleSourceS1U) xdr;
+//		XdrSingleS1UMobileCommon mcommon = s1u.getMobileCommon();
+//		String msisdn = mcommon.getMsisdn();
+//		String imsi = mcommon.getImsi();
+//		String imei = mcommon.getImei();
+//		backfill.fillS1U(new S1UFillParam(msisdn, imsi, imei), s1u);
+//	}
+//
+//	private void fillS5S8(XdrSingleSource xdr, XdrSingleCommon common) {
+//		// TODO
+//	}
+//
+//	private void fillSgs(XdrSingleSource xdr, XdrSingleCommon common) {
+//		XdrSingleSourceSGs sgs = (XdrSingleSourceSGs) xdr;
+//		backfill.fillSgs(new SgsFillParam(common.getMsisdn(), common.getImsi(),
+//				common.getImei()), sgs);
+//
+//	}
+//
+//	private void fillS10(XdrSingleSource xdr, XdrSingleCommon common) {
+//		fillS11(xdr, common);
+//	}
+//
+//	private void fillS11(XdrSingleSource xdr, XdrSingleCommon common) {
+//		XdrSingleSourceS10S11 s10s11 = (XdrSingleSourceS10S11) xdr;
+//		String userIpv4 = s10s11.getUserIpv4();// 4
+//		String sgwTeid = null;
+//		List<XdrSingleSourceS10S11.Bearer> bearers = s10s11.getBearers();
+//		if (bearers != null && bearers.size() > 0) {
+//			sgwTeid = String.valueOf(bearers.get(0).getBearerSGWGtpTeid());
+//
+//		}
+//		backfill.fillS11(new S11FillParam(common.getMsisdn(), common.getImsi(),
+//				common.getImei(), userIpv4, sgwTeid), s10s11);
+//
+//	}
+//
+//	private void fillS1mme(XdrSingleSource xdr, XdrSingleCommon common) {
+//		XdrSingleSourceS1MME s1mme = (XdrSingleSourceS1MME) xdr;
+//		String sgwTeid = null;
+//		List<Bearer> bearers = s1mme.getBearers();
+//		if (bearers != null && bearers.size() > 0) {
+//			sgwTeid = String.valueOf(bearers.get(0).getBearerSGWGtpTeid());
+//		}
+//		backfill.fillS1mme(
+//				new S1mmeFillParam(common.getMsisdn(), common.getImsi(), common
+//						.getImei(), s1mme.getMmeUeS1apID(), s1mme
+//						.getMmeGroupID(), s1mme.getMmeCode(), s1mme.getmTmsi(),
+//						s1mme.getUserIpv4(), sgwTeid, s1mme.getCellID()), s1mme);
+//	}
+//
+//	private void fillS6a(XdrSingleSource xdr, XdrSingleCommon common) {
+//		XdrSingleSourceS6a s6a = (XdrSingleSourceS6a) xdr;
+//		backfill.fillS6a(new S6aFillParam(common.getMsisdn(), common.getImsi(),
+//				common.getImei()), s6a);
+//	}
+//
+//	private void fillCellMr(XdrSingleSource xdr, XdrSingleCommon common) {
+//		FilledXdrFileOutput.output(xdr);
+//		FilledXdrSdtpOutput.output(xdr);
+//	}
+//
+//	private void fillUemr(XdrSingleSource xdr, XdrSingleCommon common) {
+//		XdrSingleSourceUEMR uemr = (XdrSingleSourceUEMR) xdr;
+//		long mmeUeS1apId = uemr.getMmeUeS1apId();// 4
+//		long cellID = uemr.getCellID();// 4
+//		backfill.filledUemr(
+//				new UemrFillParam(common.getMsisdn(), common.getImsi(), common
+//						.getImei(), mmeUeS1apId, cellID), uemr);
+//
+//	}
+//
+//	private void fillX2(XdrSingleSource xdr, XdrSingleCommon common) {
+//		XdrSingleSourceX2 x2 = (XdrSingleSourceX2) xdr;
+//		long mmeUeS1apId = x2.getMmeUeS1apId();// 4
+//		int mmeGroupID = x2.getMmeGroupID();// 2
+//		short mmeCode = x2.getMmeCode();// 1
+//		backfill.fillX2(new X2FillParam(common.getMsisdn(), common.getImsi(),
+//				common.getImei(), mmeUeS1apId, mmeGroupID, mmeCode), x2);
+//	}
+//
+//	private void fillUu(XdrSingleSource xdr, XdrSingleCommon common) {
+//		XdrSingleSourceUu uu = (XdrSingleSourceUu) xdr;
+//		long mmeUeS1apId = uu.getMmeUeS1apId();// 4
+//		int mmeGroupID = uu.getMmeGroupID();// 2
+//		short mmeCode = uu.getMmeCode();// 1
+//		backfill.fillUu(new UuFillParam(common.getMsisdn(), common.getImsi(),
+//				common.getImei(), mmeUeS1apId, mmeGroupID, mmeCode), uu);
+//	}
+//
+//}

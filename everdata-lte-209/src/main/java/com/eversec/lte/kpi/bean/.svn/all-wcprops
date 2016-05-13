@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean
+END
+StreamBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/StreamBean.java
+END
+SGS.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/SGS.java
+END
+S6A.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/S6A.java
+END
+Term_Value.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/product/!svn/ver/80926/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/Term_Value.java
+END
+TAG_Value.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/TAG_Value.java
+END
+Term.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/Term.java
+END
+TAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/TAG.java
+END
+S1U_Value.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/product/!svn/ver/80926/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/S1U_Value.java
+END
+S1MME.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/S1MME.java
+END
+S1U.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/S1U.java
+END
+S11.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/83666/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kpi/bean/S11.java
+END

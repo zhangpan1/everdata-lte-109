@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single
+END
+XdrSingleSourceCellMR.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/48857/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceCellMR.java
+END
+XdrSingleSourceS1U.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/52951/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceS1U.java
+END
+XdrSingleSourceUEMR.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/60829/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceUEMR.java
+END
+XdrSingleSourceS1MME.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceS1MME.java
+END
+XdrSingleSourceS10S11.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceS10S11.java
+END
+XdrSingleCommon.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleCommon.java
+END
+XdrSingleSourceUu.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/60829/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceUu.java
+END
+XdrSingleSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSource.java
+END
+XdrSingleSourceSGs.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceSGs.java
+END
+XdrSingleSourceS6a.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceS6a.java
+END
+XdrSingleSourceS5S8C.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceS5S8C.java
+END
+XdrSingleSourceGnC.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceGnC.java
+END
+XdrSingleSourceX2.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/60829/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/model/single/XdrSingleSourceX2.java
+END

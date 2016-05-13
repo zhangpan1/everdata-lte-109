@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/product/!svn/ver/81941/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka
+END
+KafkaLteServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/product/!svn/ver/78998/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka/KafkaLteServer.java
+END
+KafkaOutputUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka/KafkaOutputUtils.java
+END
+KafkaRuleTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/product/!svn/ver/80515/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka/KafkaRuleTools.java
+END
+KafkaOutputUtils2.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/76853/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/kafka/KafkaOutputUtils2.java
+END

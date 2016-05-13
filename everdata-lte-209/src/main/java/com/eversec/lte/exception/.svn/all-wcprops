@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/exception
+END
+UnknowSdtpMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/exception/UnknowSdtpMessageType.java
+END
+UnknowLteInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/exception/UnknowLteInterface.java
+END
+UnkownProcessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/exception/UnkownProcessException.java
+END

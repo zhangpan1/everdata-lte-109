@@ -1,0 +1,60 @@
+package com.eversec.lte.sdtp.server;
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
+
+import org.apache.mina.core.service.IoHandler;
+import org.apache.mina.filter.codec.ProtocolCodecFilter;
+import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.eversec.lte.config.SdtpConfig;
+
+/**
+ * sdtp server
+ * 
+ * @author bieremayi
+ * 
+ */
+public class SdtpLteServer {
+	private static Logger LOGGER = LoggerFactory.getLogger(SdtpLteServer.class);
+
+	/**
+	 * 启动sdtp server
+	 */
+	public static void start() {
+		int port = SdtpConfig.getSdtpListeningPort();
+		IoHandler handler = null;
+		if (SdtpConfig.isApplicationLayer()) {
+			handler = new SdtpServerApplicationLayerHandler();
+		} else {
+			//如果为sdtp的(处理逻辑)
+			handler = new SdtpServerCompLayerHandler();
+		}
+		NioSocketAcceptor acceptor = new NioSocketAcceptor();
+		acceptor.getFilterChain().addLast(
+				"protocol",
+				new ProtocolCodecFilter(new SdtpServerLteEncoder(),
+						new SdtpServerLteDecoder()));
+		acceptor.setDefaultLocalAddress(new InetSocketAddress(port));
+		acceptor.setHandler(handler);
+		if (SdtpConfig.isConfigMina()) {// mina参数配置
+			acceptor.getSessionConfig().setReadBufferSize(
+					SdtpConfig.getReadBufferSize());
+			acceptor.getSessionConfig().setSendBufferSize(
+					SdtpConfig.getSendBufferSize());
+			acceptor.getSessionConfig().setReceiveBufferSize(
+					SdtpConfig.getReceiveBufferSize());
+		}
+		try {
+			acceptor.bind();
+			LOGGER.info("sdtp server is listenig at port : {} , type : {} ",
+					port, "LTE");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

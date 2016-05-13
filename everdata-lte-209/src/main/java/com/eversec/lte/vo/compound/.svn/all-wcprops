@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/product/!svn/ver/59498/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/vo/compound
+END
+CompInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/vo/compound/CompInfo.java
+END
+CompStatisInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/vo/compound/CompStatisInfo.java
+END
+CompMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/vo/compound/CompMessage.java
+END
+MainProcedureInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/vo/compound/MainProcedureInfo.java
+END
+CompIndexInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/product/!svn/ver/59498/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/vo/compound/CompIndexInfo.java
+END
+CompStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/48678/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/vo/compound/CompStatus.java
+END

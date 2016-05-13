@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/product/!svn/ver/80395/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/infinispan
+END
+ClusterListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/80395/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/infinispan/ClusterListener.java
+END
+InfinispanCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/80395/EverData/trunk/everdata-lte-209/src/main/java/com/eversec/lte/sdtp/infinispan/InfinispanCache.java
+END
